@@ -1,4 +1,4 @@
-FROM ubuntu:eoan-20200114
+FROM ubuntu:focal
 
 ARG DEBIAN_FRONTEND=noninteractive
 
