@@ -13,7 +13,7 @@ RUN \
     apache2 \
     php7.2 \
     libapache2-mod-php7.2 \
-    pgp7.2-bcmath \
+    php7.2-bcmath \
     php7.2-common \
     php7.2-imap \
     php7.2-mbstring \
