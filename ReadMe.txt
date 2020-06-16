@@ -1,11 +1,12 @@
 Steps to use this repo:
 
-1. Create the image
+1. Modify akaunting.conf
+  edit: ServerName www.example.com
+  e.g.: ServerName 192.168.12.144:8081
+  
+2. Create the image
   docker build -t tagName .
 
-2. Modify akaunting.conf
-  edit: ServerName www.example.com
-  
 3. Create and edit the .env
   cp sample.env .env
   vi .env
