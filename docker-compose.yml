@@ -21,7 +21,6 @@ services:
     container_name: $AKAUNTING_CONTAINER
     ports:
       - $VIRTUAL_PORT:80
-      - $VIRTUAL_PORT_SSL:443
     restart: always
     environment:
       - DEBUG=false
