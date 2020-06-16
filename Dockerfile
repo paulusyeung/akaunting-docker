@@ -11,26 +11,26 @@ RUN \
  apt update && \
  apt install -y \
     apache2 \
-    php7.2 \
-    libapache2-mod-php7.2 \
-    php7.2-bcmath \
-    php7.2-common \
-    php7.2-imap \
-    php7.2-mbstring \
-    php7.2-xmlrpc \
-    php7.2-soap \
-    php7.2-gd \
-    php7.2-xml \
-    php7.2-intl \
-    php7.2-mysql \
-    php7.2-cli \
-    php7.2-ldap \
-    php7.2-zip \
-    php7.2-curl \
+    php7.4 \
+    libapache2-mod-php7.4 \
+    php7.4-bcmath \
+    php7.4-common \
+    php7.4-imap \
+    php7.4-mbstring \
+    php7.4-xmlrpc \
+    php7.4-soap \
+    php7.4-gd \
+    php7.4-xml \
+    php7.4-intl \
+    php7.4-mysql \
+    php7.4-cli \
+    php7.4-ldap \
+    php7.4-zip \
+    php7.4-curl \
     unzip \
     curl
 
-COPY php.ini /etc/php/7.2/apache2/php.ini
+COPY php.ini /etc/php/7.4/apache2/php.ini
 
 RUN \
  echo "**** install akaunting ****" && \
